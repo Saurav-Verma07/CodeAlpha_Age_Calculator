@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+}
+.calc{
+    width: 100%;
+    min-height: 100vh;
+    background: #3282B8;
+    color: #fff;
+    padding: 10px;
+}
+.CALC{
+    width: 100%;
+    max-width: 600px;
+    margin-left:30%;
+    margin-top: 8%;
+
+
+}
+.calc h1{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 100px;
+    padding: 10px;
+
+}
+.head2 h2 span{
+    font-size:30px;
+    margin:20px;
+    margin-right:10px;
+    padding:0px;
+    
+}
+.calc h1 span{
+    color: #F9ED69;
+}
+.inp-box{
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 12px;
+    background:#0F4C75;
+    display: flex;
+    align-items: center;
+}
+.inp-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 8px;
+    position:relative;
+}
+.inp-box button{
+    background:#FCE38b;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #443;
+    cursor: pointer;
+}
+.inp-box input::-webkit-calendar{
+    top: 0;
+    left:0;
+    bottom:0;
+    width:auto;
+    height: auto;
+    position: relative;
+    background-position:calc(100%);
+    background-size:30px;
+    cursor:pointer;
+}
+#result{
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+#result span{
+    color: #FFD65A;
+}
